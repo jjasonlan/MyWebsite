@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Entry 2</title>
+<style>
+body {background-color: #FFFFE0; margin-left: 15px}
+h1 {font-style: bold;}
+h3 {color:#B22222}
+p {
+		font-size: 12; 
+		font-family: Arial; 
+		font-weight: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+div {
+    background-color: #FFFFE0;
+    width: 880px;
+    overflow: auto;
+}
+a:link, a:visited {
+    display: block;
+    height: 30px;
+    width: 220px;
+    font-weight: bold;
+    color: #FFFAF0;
+    background-color: #2F4F4F;
+    text-align: center;
+    padding: 3px;
+    text-decoration: none;
+    text-transform: none;
+    font-size: larger;
+    border: 1px solid green;
+    overflow: auto
+}
+	<title>Entry 2</title>
+	h1 {font-style: bold}
+
+</style>
+</head>
+<body>
+
+
+<ul>
+  <li><a href="BootstrapHome.html">Home</a></li>
+  <li><a href="Entry1.html">Entry 1</a></li>
+  <li><a href="Highlights.html">Highlights</a></li>
+</ul>
+<br>
+<div>
+<h1>Second Entry</h1>
+<h2> Jason Lan, June 9, 2015. 11:00</h2>
+<h3> Last hours of work </h3>
+<p> My computer started to have issues around the end of the work day. I tried to play with the VPN server so that I could better understand how it works and how I could create my own, but after I created a second VPN server, the first one stopped working, leaving me with no VPN connection. I couldn't find a way to fix the current VPN, which was located somewhere in Japan, so I searched the web for a new VPN. I managed to find a US VPN which worked so I was able to use email and google online. Afterwards, the computer internet stopped working altogether, except for QQ instant messaging. I couldn't use any web browsers so I just practiced the code I knew in Sublime and edited my website, since it is a local file and doesn't require internet connection. The end of the workday at 6 o'clock was nearing, so rather than spend more time fixing the internet I just reviewed what I had learned during my first workday. </p>
+<h3> After work </h3>
+<p> After work yesterday, I waited for MaoMao's husband to pick me up. He took me to a restuarant where I ate fish, boiling vegetables, and pork. The boiling vegetables was interesting because it was placed in a metal bowl over a container with solid alcohol which burned and boiled the vegetables as we ate. Afterwards, he took me to his house where I will be staying while I am in Nanjing. I settled in and placed my belongings to make myself feel at home. I watched a rerun of Game 2 of the NBA Finals on TV but I had to fast forward and just watch the end because I was falling asleep on the sofa. It was less exciting since I had already looked up the game result online. Still, the Cavaliers beating the Warriors was very unexpected. I went to sleep around 11 and woke up a couple times during the night because I still have some jet lagg.</p>
+<h3> Morning of Day 2</h3>
+<p> I got up around 7 in the morning to prepare to go to work at 9. I tried to make myself breakfast, but all I could find in the fridge were some eggs and yogurt. I searched the web for an easy way to fry eggs, and I tried my luck. I fried two eggs, but I could tell as soon as I poured the eggs into the pan that I added too much oil. My eggs were super puffy and mildly burnt, but I still ate them. Then I washed the dishes and drank some yogurt. I watched some TV as I waited for MaoMao's husband to wake up, but he didn't get up until about 8:40. He microwaved some buns for me and he drove me to my workplace at around 9:40.</p>
+<h3> Second Day of Work</h3>
+<p> Being late for work on my second day was slightly embarrassing, but my boss didn't seem to care too much. He told me I should work on learning the DOM (Document Object Model) for Javascript, which is able to change HTML and CSS elements. I spent the day reviewing CSS and learning Javascript, but I haven't added many new elements to my website yet. I also managed to install XAMPP which lets me host my website on a new server. For now, I'm not sure why that is important yet.</p>
+
+</div>
+<br><br>
+<button id="btn"><h4>&#9668; The previous entry</h4></button>
+<button id="btn2"><h4>The next entry &#9658;</h4></button>
+
+<br><br>
+<script type="text/javascript">
+    btn.onclick = lastPage;
+    btn2.onclick = nextPage;
+
+    function nextPage(){
+        window.location='Entry3.html';
+    }
+    function lastPage(){
+        window.location='Entry1.html';
+    }
+</script>
+</body>
+</html>

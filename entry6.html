@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+    <title> Entry 6</title>
+<style>
+body {background-color: #FFFFE0; margin-left: 15px}
+h1 {font-style: bold;}
+h3 {color:#B22222;}
+p {
+		font-size: 12; 
+		font-family: Arial; 
+		font-weight: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+
+.words {
+    background-color: #FFFFE0;
+    width: 880px;
+    overflow: auto;
+}
+a:link, a:visited {
+    display: block;
+    height: 30px;
+    width: 220px;
+    font-weight: bold;
+    color: #FFFAF0;
+    background-color: #2F4F4F;
+    text-align: center;
+    padding: 3px;
+    text-decoration: none;
+    text-transform: none;
+    font-size: larger;
+    border: 1px solid green;
+    overflow: auto
+}
+
+/* If I want to make the text cool, I can use this. 
+
+p.cool {font-family: Comic;
+	font-style: none;
+	color: blue
+;} */
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="BootstrapHome.html">Home</a></li>
+  <li><a href="Entry1.html">Entry 1</a></li>
+  <li><a href="Highlights.html">Highlights</a></li>
+</ul>
+<br>
+<h1> Sixth Entry</h1>
+<h2> Jason Lan, June 15, 2015. 11:00</h2>
+<div class="words">
+<h3> One week of working </h3>
+<p> On the fifth day of working I noticed that my learning curve was slowing down considerably. It may be that the material I am learning is getting more difficult or that I am tired after a week packed full of new experiences. I feel a bit overwhelmed by everything I have to learn, and it makes it harder to focus on learning one thing well. I am experimenting a lot with my website, finding errors left and right. I made some improvements and left some things the way they are because fixing them would be more work than starting over. </p>
+<p> Bootstrap provides many easier ways to get things done without using as much Javascript or CSS but I think it is less customizable. Basicly it is a template for creating similar looking websites at a much faster pace, since there are simplified codes and less writing code individually. I may use Bootstrap to create a homepage and later if I have the time I will move the rest of my pages to a Bootstrap format, but for now I think it is too much work and will hinder me from learning new things rather than practicing what I already know pretty well. I need to remember that my website should not be the most important final result from my internship. The journey in this case is much more important than the end. </p>
+<h3> Group meeting </h3>
+<p> The highlight of the fifth day was a team meeting of sorts that our 6 person group held in the meeting room. I was invited to join them and I was a bit excited since I didn't know what was going to happen. They had a laptop and a projector in the room, and I guessed that they were going to use skype or some other application to have a meeting with a supervisor. The projector malfunctioned in the beginning and all the computer majors tried to fix it. We ended up making it work but in a strange way. The projector showed the second screen of the laptop, but the laptop only had one screen. To see anything on the projector, they had to drag windows off the screen of the laptop and onto the projector screen. It was pretty funny how the projector was acting and how 5 computer majors couldn't fix the device. </p>
+<p> What I discovered was that the meeting is basicly to discuss a new potentially useful application called Modernizr. I don't fully understand its function but it helps create code that adjusts the appearance of a webpage based on what the browser or device it is opened on can support. The meeting was basicly one person explaining how the new thing works and why it might be useful, while the other group members provide input and ask questions. It was basicly a small classroom or a group studying event. ZhangRu told me that they have these types of meetings about twice a month whenever there is some new application that may be useful to their website designing. The meeting proves that there are always new things to learn in programming. I also enjoyed the group studying environment in the meeting, where everyone helps each other understand the new subject. </p>
+<h3> Looking for Dinner </h3>
+<p> I had to find dinner on my own for once, since everyone had plans for the weekend or something. On my way to look for a restuarant, I saw a group of people playing basketball in a public park. Interested, I watched for a while, and then I was tempted to join. After staying for ten minutes or so, I decided to try and join the game. I sat on the bench with the other players who were waiting their turn and after about thirty minutes some people had to leave so I got to play in a game. I played for a while and then it got too dark to play so everyone left. Afterwards, I went to find dinner. On my way to my usual dinner place, I saw a couple shops near the subway station I always pass by. I ordered a bowl of noodles, which is pretty much sold everywhere in Nanjing. I went home pretty early and watched the NBA game replay. </p>
+</div>
+<br><br>
+<button id="btn"><h4>&#9668; The previous entry</h4></button>
+<button id="btn2"><h4>The next entry &#9658;</h4></button>
+
+<br><br>
+<script type="text/javascript">
+    btn.onclick = lastPage;
+    btn2.onclick = nextPage;
+
+    function nextPage(){
+        window.location='Entry7.html';
+    }
+    function lastPage(){
+        window.location='Entry5.html';
+    }
+</script>
+</body>
+</html>

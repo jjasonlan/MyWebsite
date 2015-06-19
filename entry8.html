@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+    <title> Entry 8</title>
+<style>
+body {background-color: #FFFFE0; margin-left: 15px}
+h1 {font-style: bold;}
+h3 {color:#B22222;}
+p {
+		font-size: 12; 
+		font-family: Arial; 
+		font-weight: none;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;}
+.nav {   float: left;
+}
+.learned {color:green;}
+.notstarted {color:red;}
+.inprogress {color: orange;}
+
+.words {
+    background-color: #FFFFE0;
+    width: 880px;
+    overflow: auto;
+}
+a:link, a:visited {
+    display: block;
+    height: 30px;
+    width: 220px;
+    font-weight: bold;
+    color: #FFFAF0;
+    background-color: #2F4F4F;
+    text-align: center;
+    padding: 3px;
+    text-decoration: none;
+    text-transform: none;
+    font-size: larger;
+    border: 1px solid green;
+    overflow: auto
+}
+#comp {font-family:"Verdana", Geneva, sans-serif;
+        }
+/* If I want to make the text cool, I can use this. 
+
+p.cool {font-family: Comic;
+	font-style: none;
+	color: blue
+;} */
+
+</style>
+</head>
+<body>
+
+<ul class="navbar">
+  <li class="nav"><a href="BootstrapHome.html">Home</a></li>
+  <li class="nav"><a href="Entry1.html">Entry 1</a></li>
+  <li class="nav"><a href="Highlights.html">Highlights</a></li>
+</ul>
+<br>
+<h1> Eighth Entry</h1>
+<h2> Jason Lan, June 15, 2015. 17:00</h2>
+<div class="words">
+<p> A brief recap of my progress in programming so far: </p>
+<ul id="comp">
+    <li class="learned">HTML : Learned </li>
+    <li class="learned">CSS : Learned </li>
+    <li class="learned">Javascript : Learned </li>
+    <li class="learned">Bootstrap : Learned </li>
+    <li class="inprogress">GitHub : In Progress </li>
+    <li class="learned">XAMPP : Learned </li>
+    <li class="inprogress">Photoshop : In Progress </li>
+    <li class="inprogress">SQL : In Progress
+    <li class="learned">jQuery : Learned </li>
+    <li class="notstarted">PHP 5 : Not Started </li>
+</ul>
+<br>
+</div>
+<br><br>
+<button id="btn"><h4>&#9668; The previous entry</h4></button>
+<button id="btn2"><h4>The next entry &#9658;</h4></button>
+
+<br><br>
+<script type="text/javascript">
+    btn.onclick = lastPage;
+    btn2.onclick = nextPage;
+
+    function nextPage(){
+        window.location='Entry9.html';
+    }
+    function lastPage(){
+        window.location='Entry7.html';
+    }
+</script>
+</body>
+</html>

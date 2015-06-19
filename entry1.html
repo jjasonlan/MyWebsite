@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+</script>
+<script>
+$(document).ready(function(){
+    $("#btn").click(function(){
+        $("body").hide();
+    });
+});
+</script>
+    <title> Entry 1</title> 
+<style>
+body {background-color: #FFFFE0; margin-left: 15px}
+h1 {font-style: bold;}
+h3 {color:#B22222;}
+p {
+		font-size: 12; 
+		font-family: Arial; 
+		font-weight: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+
+div {
+    background-color: #FFFFE0;
+    width: 880px;
+    overflow: auto;
+}
+a:link, a:visited {
+    display: block;
+    height: 30px;
+    width: 220px;
+    font-weight: bold;
+    color: #FFFAF0;
+    background-color: #2F4F4F;
+    text-align: center;
+    padding: 3px;
+    text-decoration: none;
+    text-transform: none;
+    font-size: larger;
+    border: 1px solid green;
+    overflow: auto
+}
+
+/* If I want to make the text cool, I can use this. 
+
+p.cool {font-family: Comic;
+	font-style: none;
+	color: blue
+;} */
+
+</style>
+
+</head>
+<body>
+
+<ul>
+  <li><a href="BootstrapHome.html">Home</a></li>
+  <li><a href="Entry1.html">Entry 1</a></li>
+  <li><a href="Highlights.html">Highlights</a></li>
+</ul>
+<br>
+<h1> First Entry</h1>
+<h2> Jason Lan, June 8, 2015. 15:00</h2>
+<div>
+<h3> Going to Nanjing </h3>
+<p> Today I traveled from Shanghai to Nanjing to begin my three-week summer internship. I woke up at 6:30 and rode the Line 4 Subway to HongQiao Road and transfered to the Line 10 Subway. The Line 10 Subway has two different destination points, and I happened to get on the wrong one. After switching to the correct subway line, I traveled to HongQiao Train Station where my dad sent me off to ride the train by myself to Nanjing. The train ride was over an hour long, so I slept for a while. Fearing I would miss the stop, I had to keep myself awake when I was near the Nanjing Station. </p>
+<p> At Nanjing I rode another subway (Line 1) toward the office building where I am currently interning for. The Nanjing Subway uses a different transportation card than the Shanghai Subway, and I was mildly confused when I had to position the card in the same direction as the sensor to get through the subway checkpoint. After arriving at Software Boulevard, I used GaoDe Map to find my way to Building 5. I entered the building and took the elevator to the fourth floor.</p>
+<h3 style="color:#B22222"> Start of Work </h3>
+<p> Soon after, I located the office which is Room 407. I introduced myself to the information desk at the front of the room and told them I was here to intern. No one in the office knew who I was, so I had to ask for the people who my dad arranged the internship with. I have yet to meet Gu XiaoQing, who has agreed to take care of my living situation in Nanjing, since I need help so I can homestay with another worker. All I know is what Ms. Gu mentioned over WeChat that I will be homestaying with a person named MaoMao.</p>
+<p> The informant I was speaking with recognized the names Gu XiaoQing and XuHao, and managed to find XuHao to meet with me. I didn't know how to pronounce either of these people's names because dad only sent me the PinYin form of their name, so I was surprised that the informant could understand who I was asking for. I waited in the small office room for about ten minutes before XuHao came, and the first thing he told me after we shook hands is to wait some more as he finishes some work. </p>
+<p> Later, he asked me many questions like what experience I had, how old I was, how long I was staying for the internship, and what field I wanted to work in during my internship. Basicly, he knew nothing about me before meeting me, and was basicly unprepared to have me start working. When he was explaining the fields of work in Chinese, I could understand big data and software, but none of the other four or five options he gave me. </p>
+<p> Finally, he decided to put me in one of the programming groups since it would be hard to learn a more difficult task and be productive within three weeks. I still am not sure what field my group works in or what their job is. He assigned me an instructor, Mr. Liu, who is a nice guy but I'm pretty sure his expectations of me are very low, since I have no real programming experience.</p>
+<h3 style="color:#B22222"> Actually working </h3>
+<p> The company provided me with a brand new desktop computer and a desk where I could work. The whole room is filled with programmers typing away and the office environment is pretty quiet and focused. My first task in the company was to create my own QQ account and join the company's various groups: the 7 member programming group I was assigned to, the company group, etc. I also added Mr. Liu and worker next to me as friends. </p>
+<p> The worker next to me, whose name is ZhangRu, is very nice to me and she is very patient in explaining things to me since my Chinese is still somewhat lacking. She helped me establish a VPN server so that I could work around China's firewall, and helped me create my QQ account.</p>
+<p> I spent the hour between my settling in and lunch break to learn HTML programming from W3Schools.com, which had an English website much to my relief. HTML looks very familiar to me, so I was able to pick it up pretty quickly.</p>
+<h3 style="color:#B22222"> First Lunch </h3>
+<p> At lunch, the seven person programming group stayed together and I joined them for lunch at a nearby restuarant. I had a bowl of beef noodles, which was alright even though I thought the meat tasted abnormal. The lunch environment is extremely relaxed, and we talked about the GaoKao while eating. After lunch, we returned to the office but were still on break. Some people were doing things on their phones or computers, but a vast majority of the programmers were sleeping at their desks.</p>
+<h3 style="color:#B22222"> Plans for the rest of the day </h3>
+<p> After lunch I began working on learning CSS, also from the W3Schools.com website. So far, I enjoy the experience of programming in a quiet environment because I feel that I can stay focused and productive during work hours. I hope that I will be able to use my newly learned skills soon to make noticeable change at least within my group before my three weeks is up.</p>
+</div>
+<br><br>
+<button id="btn"> Clear </button>
+<button id="btn2"><h4>The next entry &#9658;</h4></button>
+
+<br><br>
+<script type="text/javascript">
+    btn2.onclick = visitPage;
+
+    function visitPage(){
+        window.location='Entry2.html';
+    }
+</script>
+</body>
+</html>
