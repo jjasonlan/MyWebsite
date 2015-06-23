@@ -1,16 +1,9 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head><title> Entry 1</title> 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
 </script>
-<script>
-$(document).ready(function(){
-    $("#btn").click(function(){
-        $("body").hide();
-    });
-});
-</script>
-    <title> Entry 1</title> 
+    
 <style>
 body {background-color: #FFFFE0; margin-left: 15px}
 h1 {font-style: bold;}
@@ -65,8 +58,8 @@ p.cool {font-family: Comic;
 <body>
 
 <ul>
-  <li><a href="BootstrapHome.html">Home</a></li>
-  <li><a href="Entry1.html">Entry 1</a></li>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="entry1.html">Entry 1</a></li>
   <li><a href="Highlights.html">Highlights</a></li>
 </ul>
 <br>
@@ -91,15 +84,20 @@ p.cool {font-family: Comic;
 <p> After lunch I began working on learning CSS, also from the W3Schools.com website. So far, I enjoy the experience of programming in a quiet environment because I feel that I can stay focused and productive during work hours. I hope that I will be able to use my newly learned skills soon to make noticeable change at least within my group before my three weeks is up.</p>
 </div>
 <br><br>
-<button id="btn"> Clear </button>
+<!-- <button id="btn"> Clear </button> -->
 <button id="btn2"><h4>The next entry &#9658;</h4></button>
 
 <br><br>
-<script type="text/javascript">
+ <script type="text/javascript">
+// $(document).ready(function(){
+//     $("#btn").click(function(){
+//         $("body").hide();
+//     });
+// });
     btn2.onclick = visitPage;
 
     function visitPage(){
-        window.location='Entry2.html';
+        window.location='entry2.html';
     }
 </script>
 </body>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+    <title> Entry 10</title>
+<style>
+body {background-color: #FFFFE0; margin-left: 15px}
+h1 {font-style: bold;}
+h3 {color:#B22222;}
+p {
+		font-size: 12; 
+		font-family: Arial; 
+		font-weight: none;
+}
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 1000px;
+}
+  li {
+    float: left;}
+
+.words {
+    background-color: #FFFFE0;
+    width: 880px;
+    overflow: auto;
+}
+a:link.navbar, a:visited.navbar {
+    display: block;
+    height: 30px;
+    width: 220px;
+    font-weight: bold;
+    color: #FFFAF0;
+    background-color: #2F4F4F;
+    text-align: center;
+    padding: 3px;
+    text-decoration: none;
+    text-transform: none;
+    font-size: larger;
+    border: 1px solid green;
+    overflow: auto;
+    float: left;
+}
+#comp {font-family:"Verdana", Geneva, sans-serif;
+        }
+/* If I want to make the text cool, I can use this. 
+
+p.cool {font-family: Comic;
+	font-style: none;
+	color: blue
+;} */
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="navbar" href="index.html">Home</a></li>
+  <li><a class="navbar" href="entry1.html">Entry 1</a></li>
+  <li><a class="navbar" href="Highlights.html">Highlights</a></li>
+</ul>
+<br>
+<h1> Tenth Entry</h1>
+<h2> Jason Lan, June 23, 2015. 12:00</h2>
+<div class="words">
+<h3> Website Online! </h3>
+<p> Thanks to GitHub, my website is now visible from online via the URL: <a href="http://jjasonlan.github.io/MyWebsite/">http://jjasonlan.github.io/MyWebsite/</a>. My personal website is one of my most tangible achievements from this internship, since I spent a lot of time on it logging journal entries and testing code. I've certainly learned a lot so far and this website is one of the things I have to show for it. I'm still looking for a way I can leave a more lasting impact on the company, since I have a good understanding about the company now. </p>
+<h3> My Understanding of the Company </h3>
+<p> The company has many competitors and face various internal problems, but it also has a stable and sizeable customer base. Still, it is far from perfect--there is room for improvement throughout the company. Firstly I disapprove of the amount of resources dedicated to online chat support. Half the company (or more) is working to conquer all of their customers' problems one at a time rather than fixing the problems internally by improving the website to make it more easily understandable, hence leaving less problems for customers. Imagine plugging the holes in a leaky dam one by one instad of looking at the bigger picture and rebuilding the dam. The reconstruction process will take time and effort, but will provide a more permanent fix and allow the company to move forward with reaching out to more customers without having to spend as much effort resolving problems on a case by case basis. However, this kind of change is a bit too drastic, and even though I think it is the right decision, the company may be too far along this path for an immediate change. It will take a disaster for the company to actually change its ways, and I don't think I can make enough difference to stop that from happenning.</p>
+<p> Another issue is that the company website is running on very old javascript. The javascript has only gone through one major rewrite since 2008, and the older script is limiting the growth of the current website. Making changes to the javascript is a huge difficulty, since it is unclear which group is in charge of the javascript. It is divided among various groups and no one individual knows where to find all parts of the javascript. LaoZheng thinks that javascript should technically all be under the control of the front end group, but it is too important for one group to dominate over it, unless the group was entirely dedicated to maintaining and updating it. He estimates that if one or two experienced javascript programmers worked together solely on rewriting the javascript, it would be enough. As of now, the group does not have enough people to make that possible. The javascript is so old that rewriting it would be less work than editing and changing it, but there are tons of other things that rely on the javascript variables which need to have the same names as the old javascript. The company is currently pushing this problem back and working within the boundaries of the old javascript.</p>
+<p> A third issue  is the need for newer programming technology yet inability to use tech incompatible with older browsers, such as IE8, because the company has a significant percentage of consumers buying from older browsers. This is the issue that the front end group is currently confronting. They are looking for programs and libraries which improve website performance on all browsers, or at least do not hinder performance on browsers that are incompatible. There is a growing demand for mobile platforms since more and more users are accessing the website through their phones and tablets, so they are also seeking mobile friendly website layouts which can still work on larger screens.</p>
+<p> 
+
+</div>
+<br><br>
+<button id="btn"><h4>&#9668; The previous entry</h4></button>
+<button id="btn2"><h4>The next entry &#9658;</h4></button>
+
+<br><br>
+<script type="text/javascript">
+    btn.onclick = lastPage;
+    btn2.onclick = nextPage;
+
+    function nextPage(){
+        window.location='entry11.html';
+    }
+    function lastPage(){
+        window.location='entry9.html';
+    }
+</script>
+</body>
+</html>
