@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+    <title> Entry 9</title>
+<style>
+body {background-color: #FFFFE0; margin-left: 15px}
+h1 {font-style: bold;}
+h3 {color:#B22222;}
+p {
+		font-size: 12; 
+		font-family: Arial; 
+		font-weight: none;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;}
+.nav {   float: left;
+}
+.learned {color:green;}
+.notstarted {color:red;}
+.inprogress {color: orange;}
+
+.words {
+    background-color: #FFFFE0;
+    width: 880px;
+    overflow: auto;
+}
+a:link, a:visited {
+    display: block;
+    height: 30px;
+    width: 220px;
+    font-weight: bold;
+    color: #FFFAF0;
+    background-color: #2F4F4F;
+    text-align: center;
+    padding: 3px;
+    text-decoration: none;
+    text-transform: none;
+    font-size: larger;
+    border: 1px solid green;
+    overflow: auto
+}
+#comp {font-family:"Verdana", Geneva, sans-serif;
+        }
+/* If I want to make the text cool, I can use this. 
+
+p.cool {font-family: Comic;
+	font-style: none;
+	color: blue
+;} */
+
+</style>
+</head>
+<body>
+
+<ul class="navbar">
+  <li class="nav"><a href="index.html">Home</a></li>
+  <li class="nav"><a href="entry1.html">Entry 1</a></li>
+  <li class="nav"><a href="Highlights.html">Highlights</a></li>
+</ul>
+<br>
+<h1> Ninth Entry</h1>
+<h2> Jason Lan, June 19, 2015. 18:00</h2>
+<div class="words">
+<p> A revised recap of my progress in programming so far: </p>
+<ul id="comp">
+    <li class="learned">HTML : Learned </li>
+    <li class="learned">CSS : Learned </li>
+    <li class="learned">Javascript : Learned </li>
+    <li class="learned">Bootstrap : Learned </li>
+    <li class="learned">GitHub : Learned </li>
+    <li class="learned">XAMPP : Learned </li>
+    <li class="inprogress">Photoshop : In Progress </li>
+    <li class="notstarted">SQL : Abandoned </li>
+    <li class="learned">jQuery : Learned </li>
+    <li class="notstarted">PHP : Abandoned </li>
+    <li class="learned">Foundation : Learned </li>
+    <li class="learned">Node.js : Learned </li>
+    <li class="learned">npm : Learned </li>
+    <li class="learned">Grunt/Gulp : Learned </li>
+    <li class="inprogress">Yeoman : In Progress </li>
+    <li class="learned">Ruby : Learned </li>
+    <li class="not started">Sass : Not Started</li>
+</ul>
+<br>
+<h3> Second Week of Interning </h3>
+    <p> This week I broadened my studying and did a lot of experimentation with npm and node.js, which are relatively newer computing tools. npm allows programmers to download packages from the internet through the command prompt, using node.js, a client-side, event driven platform. Sharing code and files is extremely important for creating new progress in programming, and npm makes that process easy and accessible so people can publish their packets and install packets from others. Through my research I obtained a much better understanding of what part my company group plays in the larger scale of the company and how other groups are all connected to making the company website functioning and updated.
+    <p> My group is in charge of front end operations, also known as client side scripting. This has heavy reliance on Javascript and its corresponding programs (like node.js!). Strictly speaking, the client is the browser where a program is run, or the company website is viewed. Using Javascript, as well as basic HTML and CSS, the client side scripts run on the computer after a web page is loaded. So, the front end is in charge of the immediate responses to user interaction, as well as a large portion of what is seen on a webpage.</p>
+    <p> Another group in the company is in charge of back end operations, or server side scripting. Server side scripting works with data and information sent to the webpage before the page is loaded. Server side scripts are not seen in code, but as HTML as the webpage is retrieved from the server via internet. Back end operations frequently use SQL and PHP, as well as other server side scripts. </p>
+    <p> Because my group works very little or not at all with SQL and PHP scripts, I decided to stop learning them. I think front end operations are easier for me to understand since it is more difficult to obtain server data than to create my own webpages as an intern. LaoZheng, my boss, pointed me to Grunt and Gulp, which are task based command line tools, somewhat similar to npm. Grunt was the standard for a long time, and is still used by many websites. The newest upgrade to front end operations is Gulp, which is still developing. Gulp has various differences from Grunt, which make it more appealing for future acceptance in the programming community. Grunt failed in its reliance on global installations with can cause chaos among different projects. Gulp does not need to installed globally to be used. Gulp shines because it is a streaming build tool, which means it can add more plugins while only reading and writing to disk once. </p>
+</div>
+<br><br>
+<button id="btn"><h4>&#9668; The previous entry</h4></button>
+<button id="btn2"><h4>The next entry &#9658;</h4></button>
+
+<br><br>
+<script type="text/javascript">
+    btn.onclick = lastPage;
+    btn2.onclick = nextPage;
+
+    function nextPage(){
+        window.location='entry10.html';
+    }
+    function lastPage(){
+        window.location='entry8.html';
+    }
+</script>
+</body>
+</html>
