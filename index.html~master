@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Summer Internship at Sheninside</title>
+<!--   Home page using bootstrap
+ -->  
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <style>
+body {background-color: #FFFFE0; margin-left: 15px}
+h1 {font-style: bold;}
+h3 {color:#B22222;}
+p {
+		font-size: 12; 
+		font-family: Arial; 
+		font-weight: none;
+}
+.lft {float: left;}
+
+#navbar {
+    float: left;
+}
+#comp {font-family:"Verdana", Geneva, sans-serif;
+		}
+
+.btn {
+    background-color: #FFFFE0;
+    width: 880px;
+    overflow: auto;
+}
+
+
+/* If I want to make the text cool, I can use this. 
+
+p.cool {font-family: Comic;
+	font-style: none;
+	color: blue
+;} */
+
+</style>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">My Website</a>
+    </div>
+    <div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="bootstraphome.html">Home</a></li>
+        <li><a href="entry1.html">Entry 1</a></li>
+        <li><a href="Highlights.html">Highlights</a></li> 
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Select Entry
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="Entry1.html">Entry 1</a></li>
+            <li><a href="Entry2.html">Entry 2</a></li>
+            <li><a href="Entry3.html">Entry 3</a></li>
+            <li><a href="Entry4.html">Entry 4</a></li>
+            <li><a href="Entry5.html">Entry 5</a></li>
+            <li><a href="Entry6.html">Entry 6</a></li> 
+            <li><a href="Entry7.html">Entry 7</a></li>
+            <li><a href="Entry8.html">Entry 8</a></li>
+            <li><a href="Entry9.html">Entry 9</a></li> 
+            <li><a href="Entry10.html">Entry 10</a></li>
+            <li><a href="Entry11.html">Entry 11</a></li>
+            <li><a href="Entry12.html">Entry 12</a></li> 
+            <li><a href="Entry13.html">Entry 13</a></li>
+            <li><a href="Entry14.html">Entry 14</a></li>
+            <li><a href="Entry15.html">Entry 15</a></li> 
+            <li><a href="Entry16.html">Entry 16</a></li>
+            <li><a href="Entry17.html">Entry 17</a></li>
+            <li><a href="Entry18.html">Entry 18</a></li> 
+            <li><a href="Entry19.html">Entry 19</a></li>
+            <li><a href="Entry20.html">Entry 20</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav><br>
+<div class="container-fluid">
+<h1> Introduction</h1>
+<h3> My Website</h3>
+<p> This is my journal for my summer internship in Nanjing at Sheninside Company. Journal entries generally take me about 40 minutes to write, and more time to add new code and new functions to the website. My goal is to make this website visually appealing and as complex as possible, evolving as my knowledge of programming grows, yet remain easy to understand for people without basic programming knowledge. My journal entries should be easily accessible and website navigation should be convenient.</p>
+<h3> Purpose </h3>
+<p>I am using this website as a practice for the programming skills I have learned through online self-studying as well as a place to record my experiences for documentation and share them with others. It's also something to keep me busy during the workday since writing journal entries is very time consuming and I would not have time to write in such detail after work.</p>
+<h3> Functionality</h3>
+<p>Each journal entry has buttons at the bottom of the page which will link to the previous and next pages of the journal. To skip to a specific journal entry, please use the Select Entry tab in the navigation bar at the top of the page or the navigation bar at the bottom of the page. The Highlights tab contains a much briefer summary listing the highlights of my time in Nanjing.</p>
+<h3> Contents </h3>
+<p> Journal entries begin with the entry number and date and time of completion. Each entry includes several subtitles indicating the major event which the following paragraphs are about. The subject of each journal entry is the notable events which occured between the completion times of the current and previous entries. If you are looking for a specific event, find the event in the Highlights page and click the corresponding box to jump to the entry.</p>
+<p> The various components of the website have been created using resources and code as follows: <br>
+<ul id="comp">
+	<li>Website title: HTML</li>
+	<li>Navigation bar and styling: CSS</li>
+	<li>Background Color: CSS</li>
+  <li>Home Page: Bootstrap</li>
+	<li>Text: HTML</li>
+	<li>Text styling: CSS</li>
+	<li>Navigation buttons: JS</li>
+	<li>Website host: XAMPP (Apache)</li>
+    <li>Page navigation: Bootstrap</li>
+  </ul>
+<br> </div>
+<button id="btn"><h2>Start Reading Here</h2></button>
+<br><br>
+<div class="lft">
+  <strong> Page Navigation </strong> <br>
+    <ul class="pagination">
+    <li><a href="Entry1.html">1</a></li>
+    <li><a href="Entry2.html">2</a></li>
+    <li><a href="Entry3.html">3</a></li>
+    <li><a href="Entry4.html">4</a></li>
+    <li><a href="Entry5.html">5</a></li>
+    <li><a href="Entry6.html">6</a></li>
+    <li><a href="Entry7.html">7</a></li>
+    <li><a href="Entry8.html">8</a></li>
+    <li><a href="Entry9.html">9</a></li>
+    <li><a href="Entry10.html">10</a></li>
+    <li><a href="Entry11.html">11</a></li>
+    <li><a href="Entry12.html">12</a></li>
+    <li><a href="Entry13.html">13</a></li>
+    <li><a href="Entry14.html">14</a></li>
+    <li><a href="Entry15.html">15</a></li>
+    <li><a href="Entry16.html">16</a></li>
+    <li><a href="Entry17.html">17</a></li>
+    <li><a href="Entry18.html">18</a></li>
+    <li><a href="Entry19.html">19</a></li>
+    <li><a href="Entry20.html">20</a></li>
+  </ul></div>
+  <br><br><br><br>
+
+<script type="text/javascript">
+    btn.onclick = nextPage
+    function nextPage(){
+        window.location="Entry1.html";
+    }
+</script>
+</body>
+</html>
