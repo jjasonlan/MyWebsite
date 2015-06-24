@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+    <title> Entry 11</title>
+<style>
+body {background-color: #FFFFE0; margin-left: 15px}
+h1 {font-style: bold;}
+h3 {color:#B22222;}
+p {
+		font-size: 12; 
+		font-family: Arial; 
+		font-weight: none;
+}
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 1000px;
+}
+  li {
+    float: left;}
+
+.words {
+    background-color: #FFFFE0;
+    width: 880px;
+    overflow: auto;
+}
+a:link.navbar, a:visited.navbar {
+    display: block;
+    height: 30px;
+    width: 220px;
+    font-weight: bold;
+    color: #FFFAF0;
+    background-color: #2F4F4F;
+    text-align: center;
+    padding: 3px;
+    text-decoration: none;
+    text-transform: none;
+    font-size: larger;
+    border: 1px solid green;
+    overflow: auto;
+    float: left;
+}
+#comp {font-family:"Verdana", Geneva, sans-serif;
+        }
+/* If I want to make the text cool, I can use this. 
+
+p.cool {font-family: Comic;
+	font-style: none;
+	color: blue
+;} */
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="navbar" href="index.html">Home</a></li>
+  <li><a class="navbar" href="entry1.html">Entry 1</a></li>
+  <li><a class="navbar" href="Highlights.html">Highlights</a></li>
+  <li><a href="AboutMe.html">About Me</a></li>
+</ul>
+<br>
+<h1> Eleventh Entry</h1>
+<h2> Jason Lan, June 24, 2015. 12:00</h2>
+<div class="words">
+<h3> Overtime </h3>
+<p> Yesterday I stayed and worked overtime with the rest of the group. People at the company often work overtime whenever there is work that needs to be completed. I was able to be slightly more involved in the work, even creating part of the code that was added to the websites. The company has 8 websites for different parts of the world that they sell to, each website customized for the target audience in language, style, and format. I used Macromedia Fireworks (definitely torrented 2003 version of Adobe Fireworks) to create hotspots with URL links on a picture, which was much simpler than using Photoshop to slice parts of the image from the background and attach links to them. I then sent the code to ZhangRu so she could make a version for every website and upload it onto the website server. The website server is secured with individual IDs and Passwords so that it is clear who made the changes to the website. </p>
+<p> The whole process took about two hours to ensure that all the links and images were functional. Honestly I feel like I could have done everything in an hour, but I suppose it's easier to watch than to actually pick out all the errors. During this time, the semi-functional code was uploaded directly onto the webpages to test, so customers who happened to be on the webpages they were editing could see the code. The added content was for a new sale that the website was hosting, and was hidden after the editing and proofreading process. I remember when I used Dreamweaver to make changes to the Highly Gifted Magnet website in middle school that I made sure everything worked locally before uploading it online, and only checked online as a final check. The reason the process is so slow is that each website needs to be checked separately and there is only one local check before uploading the code online. Any additional edits to match the different websites are checked on the website server instead of a local server. The website has too many files to be on a local server, but I feel that there should be an additional test server containing an exact copy of all the files on the real website (maybe there is) so that code can be tested on that server before final publishing. This would also serve as a backup in case website files are lost or corrupted.</p>
+<h3> Gains from Overtime </h3>
+<p> I learned a couple things during the overtime experience. Firstly, overtime is very tiring. I felt like falling asleep and it was only 9:30 when I left. My coworkers told me that there were some overtime runs that lasted until midnight or even beyond that. The next morning was painful for me as well. Secondly, I do have a lot of experience with computers from my personal use or website managing. I remembered the skills from using Adobe Dreamweaver even though I haven't used it since middle school and didn't even remember that I had that knowledge until it became useful. Thirdly, I don't think I'm quite ready for full time work yet. Although I am learning a lot I don't think I can manage to keep up this schedule for a year since I already feel that I am lacking exercise and need more breaks in between computer work. Overtime is even more out of the question. Lastly, however, I feel like I am capable of doing company work. Things like the overtime project are so second nature to me that I could do it on my own after watching someone do only a quarter of it. I don't even need someone to walk me through or provide an example if it's something so simple. I could easily have done the rest as soon as I watched someone insert the code online. More advanced coding is still beyond me but the company still needs simple, time-consuming work to be done and I have learned enough to do that, without losing in speed or precision to more experienced workers. In terms of computer usage, I'm sure I don't fall short on experience in comparison to the other workers, at least not by far.</p>
+
+</div>
+<br><br>
+<button id="btn"><h4>&#9668; The previous entry</h4></button>
+<button id="btn2"><h4>The next entry &#9658;</h4></button>
+
+<br><br>
+<script type="text/javascript">
+    btn.onclick = lastPage;
+    btn2.onclick = nextPage;
+
+    function nextPage(){
+        window.location='entry12.html';
+    }
+    function lastPage(){
+        window.location='entry10.html';
+    }
+</script>
+</body>
+</html>
