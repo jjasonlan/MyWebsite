@@ -2,7 +2,7 @@
 <html>
 <head>
    <meta charset="utf-8">
-    <title> Entry 8</title>
+    <title> Entry 12</title>
 <style>
 body {background-color: #FFFFE0; margin:auto; width:960px;}
 h1 {font-style: bold;}
@@ -13,28 +13,25 @@ p {
 		font-weight: none;
 }
 
-.navbar {
+  ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    width:960px;
-    }
-.nav {   float: left;
+    width: 960px;
 }
-.learned {color:green;}
-.notstarted {color:red;}
-.inprogress {color: orange;}
+  li {
+    float: left;}
 
 .words {
     background-color: #FFFFE0;
     width: 940px;
     overflow: auto;
 }
-a:link, a:visited {
+a:link.navbar, a:visited.navbar {
     display: block;
     height: 30px;
-    width: 20px;
+    width: 230px;
     font-weight: bold;
     color: #FFFAF0;
     background-color: #2F4F4F;
@@ -44,7 +41,8 @@ a:link, a:visited {
     text-transform: none;
     font-size: larger;
     border: 1px solid green;
-    overflow: auto
+    overflow: auto;
+    float: left;
 }
 #comp {font-family:"Verdana", Geneva, sans-serif;
         }
@@ -59,30 +57,17 @@ p.cool {font-family: Comic;
 </head>
 <body>
 
-<ul class="navbar">
-  <li class="nav"><a href="index.html">Home</a></li>
-  <li class="nav"><a href="entry1.html">Entry 1</a></li>
-  <li class="nav"><a href="Highlights.html">Highlights</a></li>
-  <li class="nav"><a href="AboutMe.html">About Me</a></li>
+<ul>
+  <li><a class="navbar" href="index.html">Home</a></li>
+  <li><a class="navbar" href="entry1.html">Entry 1</a></li>
+  <li><a class="navbar" href="Highlights.html">Highlights</a></li>
+  <li><a class="navbar" href="AboutMe.html">About Me</a></li>
 </ul>
 <br>
-<h1> Eighth Entry</h1>
-<h2> Jason Lan, June 15, 2015. 17:00</h2>
+<h1> Thirteenth Entry</h1>
+<h2> Jason Lan, June 25, 2015. 14:00</h2>
 <div class="words">
-<p> A brief recap of my progress in programming so far: </p>
-<ul id="comp">
-    <li class="learned">HTML : Learned </li>
-    <li class="learned">CSS : Learned </li>
-    <li class="learned">Javascript : Learned </li>
-    <li class="learned">Bootstrap : Learned </li>
-    <li class="inprogress">GitHub : In Progress </li>
-    <li class="learned">XAMPP : Learned </li>
-    <li class="inprogress">Photoshop : In Progress </li>
-    <li class="inprogress">SQL : In Progress </li>
-    <li class="learned">jQuery : Learned </li>
-    <li class="notstarted">PHP : Not Started </li>
-</ul>
-<br>
+
 </div>
 <br><br>
 <button id="btn"><h4>&#9668; The previous entry</h4></button>
@@ -94,10 +79,10 @@ p.cool {font-family: Comic;
     btn2.onclick = nextPage;
 
     function nextPage(){
-        window.location='entry9.html';
+        window.location='entry13.html';
     }
     function lastPage(){
-        window.location='entry7.html';
+        window.location='entry11.html';
     }
 </script>
 </body>
